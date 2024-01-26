@@ -12,14 +12,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 24px  20px; 
+  padding: 24px  20px;
   height: 132px;
 }
 .content-section {
   width: 360px;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 .content-section_theme_dark {
   background-color: black;
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 .card_theme_dark {
   background-color: #343434;
-  color: #F5F5F5; 
+  color: #F5F5F5;
 }
 .card_theme_bright {
   background-color: #FEE42A;  
