@@ -9,11 +9,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style-type: none;
+}
 .header {
   display: flex;
   justify-content: space-between;
   padding: 24px  20px;
-  height: 132px;
+  min-height: 132px;
 }
 .content-section {
   width: 360px;
@@ -34,7 +37,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 .header__menu-list {
   height: 100%;
-  list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   background-repeat: no-repeat;
   background-size: 95% auto;
   background-position: right bottom;
-  height: 228px;
+  min-height: 228px;
 }
 .cover__title {
   font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -101,6 +103,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   line-height: 27px;
 }
 .content-section__list {
+  list-style-type: disc;
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -154,12 +157,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   margin-top: 0;
 }
 .footer {
+  padding: 20px;
+  min-height: 62px;
+  border-top: 1px solid #FEE42A;
+}
+.footer_list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  height: 62px;
-  border-top: 1px solid #FEE42A;
+  min-width: 100%;
 }
 .footer__copy {
   display:inline-block;
@@ -170,9 +176,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   font-size: 14px;
   line-height: 125%;
   text-decoration: none;
-  width: 73px;;
+  min-width: 73px;
 }
 .footer__links a {
   text-decoration: none;
   color: inherit;
+  font-size: 14px;
+  line-height: 125%;
 }
