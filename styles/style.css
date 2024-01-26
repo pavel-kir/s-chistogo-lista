@@ -52,8 +52,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-size: 95% auto;
-  background-position-x: right;
-  background-position-y: bottom; 
+  background-position: right bottom;
   height: 228px;
 }
 .cover__title {
@@ -128,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   color: #F5F5F5;
 }
 .card_theme_bright {
-  background-color: #FEE42A;  
+  background-color: #FEE42A;
   color: #131313;
 }
 .card__author-photo {
@@ -143,7 +142,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   font-family: 'EB Garamond', 'Times New Roman', serif;
   font-weight: 500;
   font-size: 22px;
-  line-height: 135%; 
+  line-height: 135%;
   margin-top: 8px;
   margin-bottom: 8px;
 }
