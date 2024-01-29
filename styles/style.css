@@ -16,7 +16,6 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 24px  20px;
-  min-height: 132px;
 }
 .content-section {
   width: 360px;
@@ -35,6 +34,9 @@ ul {
 .header__logo-image {
   width: 78.45px;
 }
+.header__menu{
+  min-height: 84px;
+}
 .header__menu-list {
   height: 100%;
   display: flex;
@@ -42,11 +44,10 @@ ul {
   justify-content: space-between;
   font-size: 16px;
 }
-.header__menu-item {
-  text-decoration: underline;
+.header__menu-item_active a {
+  text-decoration: none;
 }
 .header__menu-link {
-  text-decoration: none;
   color: inherit;
 }
 .cover {
@@ -158,7 +159,6 @@ ul {
 }
 .footer {
   padding: 20px;
-  min-height: 62px;
   border-top: 1px solid #FEE42A;
 }
 .footer_list {
@@ -166,6 +166,10 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   min-width: 100%;
+}
+.footer_list a {
+  text-decoration: none;
+  color: inherit;
 }
 .footer__copy {
   display:inline-block;
@@ -175,12 +179,9 @@ ul {
   justify-content: space-between;
   font-size: 14px;
   line-height: 125%;
-  text-decoration: none;
   min-width: 73px;
 }
 .footer__links a {
-  text-decoration: none;
-  color: inherit;
   font-size: 14px;
   line-height: 125%;
 }
